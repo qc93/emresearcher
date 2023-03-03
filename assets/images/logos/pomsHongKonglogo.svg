@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98 98">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #9e8b4f;
+      }
+
+      .cls-2 {
+        font-size: 20px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+        font-family: Onyx, Onyx;
+      }
+
+      .cls-3 {
+        font-size: 55px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" width="98" height="98"/>
+  <text class="cls-3" transform="translate(2.96 59.19) scale(1.26 1)"><tspan x="0" y="0">POMS</tspan></text>
+  <text class="cls-2" transform="translate(3 83.68) scale(1.77 1)"><tspan x="0" y="0">Hong Kong</tspan></text>
+</svg>
