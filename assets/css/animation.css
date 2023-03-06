@@ -1,0 +1,79 @@
+
+nav{
+	margin: 100px auto 0; 
+	//添加定位,
+	position: relative;
+	width: 590px; 
+	height: 50px; 
+	background-color: #e9a941; 
+	border-radius: 8px;
+}
+nav a{
+	line-height: 50px; 
+	height: 100%; 
+	font-size: 15px; 
+	display: inline-block; 
+	position:relative; 
+	z-index: 1; 
+	text-decoration: none; 
+	/text-transform:uppercase; 文本大写*/
+	text-align: center; 
+	color: #fff; 
+	ursor: pointer; 
+}
+
+nav animation{
+	//绝对定位,通过子绝父相的方式让颜色块移动
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	//移动时候的过渡效果
+	transition: all .5s ease;
+	border-radius:8px;
+}
+
+//因为每个块的文字大小不同,所5个块设置不同的宽度
+a:nth-child(1){
+	width: 100px;
+}
+a:nth-child(2){
+	width: 110px;
+}
+a:nth-child(3){
+	width: 100px;
+}
+a:nth-child(4){
+	width: 160px;
+}
+a:nth-child(5){
+	width: 120px;
+}
+
+//定义鼠标进过时候的颜色变化,和偏移距离
+//通过绝对定位的子元素的偏移值来实现滑动效果
+a:nth-child(1):hover~.animation{
+	width: 100px;
+	left: 0;
+	background-color: aqua;
+}
+a:nth-child(2):hover~.animationt{
+	width: 110px; 
+	left: 100px;
+	background-color:#e74c3c;
+}
+a:nth-child(3):hover~.animation{
+	width: 100px;
+	left: 210px;
+	background-color: #9b30d0;
+}
+a:nth-child(4):hover~.animation{
+	width: 160px;
+	left: 310px;
+	background-color: #dc42bb;
+}
+a:nth-child(5):hover~.animation{
+	width: 120px;
+	left: 470px;
+	background-color: #8e94e4;
+}
