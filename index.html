@@ -292,7 +292,7 @@
                         <div class="anchor" style="position: absolute; left: 50%; opacity: 0;"></div>
                         <label for="type-baidu"   data-id="group-a"><span>常用</span></label>
                         <label for="type-baidu1"  data-id="group-b"><span>搜索</span></label>
-                        <label for="type-br"      data-id="group-c"><span>工具</span></label>
+                        <label for="type-br"      data-id="group-c"><span>文献</span></label>
                         <label for="type-zhihu"   data-id="group-d"><span>社区</span></label>
                         <label for="type-taobao1" data-id="group-e"><span>生活</span></label>
                         <label for="type-zhaopin" data-id="group-f"><span>求职</span></label>
@@ -332,12 +332,6 @@
 			        value="https://anaconda.org/search?q=" data-placeholder="Anaconda 软件搜索">
 			    <label for="type-anaconda"><span class="text-muted">软件</span></label>
                         </li>
-                        <li><input hidden="" type="radio" name="type" 
-                                id="type-pubmed"
-                                value="https://pubmed.ncbi.nlm.nih.gov/?term=" 
-                                data-placeholder="PubMed 搜索/文章标题/关键字">
-			    <label for="type-pubmed"><span class="text-muted">文献</span></label>
-                        </li>
                     </ul>
                 </div>
                 <div class="search-group group-b">
@@ -354,12 +348,7 @@
                                 data-placeholder="谷歌搜索">
                             <label for="type-google1"><span class="text-muted">谷歌</span></label>
                         </li>
-                        <li><input hidden="" type="radio" name="type" 
-                                id="type-360"
-                                value="https://www.so.com/s?q=" 
-                                data-placeholder="360 好搜">
-                            <label for="type-360"><span class="text-muted">360</span></label>
-                        </li>
+                        
                         <li><input hidden="" type="radio" name="type" 
                                 id="type-sogo"
                                 value="https://www.sogou.com/web?query=" 
@@ -384,40 +373,28 @@
                     <ul class="search-type">
                         <li><input hidden="" type="radio" name="type" 
                                 id="type-br"
-                                value="https://rank.chinaz.com/all/"
-                                data-placeholder="请输入网址(不带 https://)">
-                            <label for="type-br"><span class="text-muted">权重查询</span></label>
+                                value="https://scholar.google.com/scholar?q="
+                                data-placeholder="请输入检索内容">
+                            <label for="type-br"><span class="text-muted">谷歌学术</span></label>
                         </li>
                         <li><input hidden="" type="radio" name="type" 
                                 id="type-links"
-                                value="https://link.chinaz.com/" 
-                                data-placeholder="请输入网址(不带 https://)">
-                            <label for="type-links"><span class="text-muted">友链检测</span></label>
+                                value="http://xueshu.baidu.com/s?wd=" 
+                                data-placeholder="请输入检索内容">
+                            <label for="type-links"><span class="text-muted">百度学术</span></label>
                         </li>
                         <li><input hidden="" type="radio" name="type" 
-                                id="type-icp"
-                                value="https://icp.aizhan.com/" 
-                                data-placeholder="请输入网址(不带 https://)">
-                            <label for="type-icp"><span class="text-muted">备案查询</span></label>
+                                id="type-pubmed"
+                                value="https://s.wanfangdata.com.cn/paper?q=" 
+                                data-placeholder="搜索/文章标题/关键字">
+                         <label for="type-pubmed"><span class="text-muted">万方</span></label>
                         </li>
                         <li><input hidden="" type="radio" name="type" 
-                                id="type-ping"
-                                value="https://ping.chinaz.com/"
-                                data-placeholder="请输入网址(不带 https://)">
-                            <label for="type-ping"><span class="text-muted">PING 检测</span></label>
-                        </li>
-                        <li><input hidden="" type="radio" name="type" 
-                                id="type-404"
-                                value="https://tool.chinaz.com/Links/?DAddress="
-                                data-placeholder="请输入网址(不带https://)">
-                             <label for="type-404"><span class="text-muted">死链检测</span></label>
-                        </li>
-                        <li><input hidden="" type="radio" name="type" 
-                                id="type-ciku"
-                                value="https://www.ciku5.com/s?wd=" 
-                                data-placeholder="请输入关键词">
-                            <label for="type-ciku"><span class="text-muted">关键词挖掘</span></label>
-                        </li>
+                                id="type-pubmed"
+                                value="https://pubmed.ncbi.nlm.nih.gov/?term=" 
+                                data-placeholder="PubMed 搜索/文章标题/关键字">
+                         <label for="type-pubmed"><span class="text-muted">PubMed</span></label>
+                        </li>                        
                     </ul>
                 </div>
                 <div class="search-group group-d">
@@ -686,7 +663,7 @@
                                     <div class="url-img mr-2 d-flex align-items-center justify-content-center">
                                         
 					    
-					    <img class="lazy" src="assets/images/logos/%e4%b9%a6%e6%a1%8c.svg" data-src="assets/images/logos/%e4%b9%a6%e6%a1%8c.svg"
+					    <img class="lazy" src="assets/images/logos/%e4%b9%a6%e6%a1%8c1.svg" data-src="assets/images/logos/%e4%b9%a6%e6%a1%8c1.svg"
                                                 onerror="javascript:this.src='assets\/images\/logos\/default.webp'" alt="图书馆座位预约">
 					    
                                         
@@ -785,7 +762,7 @@
                                     <div class="url-img mr-2 d-flex align-items-center justify-content-center">
                                         
 					    
-					    <img class="lazy" src="assets/images/logos/%e5%8f%b0%e5%8e%86.svg" data-src="assets/images/logos/%e5%8f%b0%e5%8e%86.svg"
+					    <img class="lazy" src="assets/images/logos/%e6%97%a5%e5%8e%86.svg" data-src="assets/images/logos/%e6%97%a5%e5%8e%86.svg"
                                                 onerror="javascript:this.src='assets\/images\/logos\/default.webp'" alt="校历">
 					    
                                         
@@ -1032,7 +1009,7 @@
                                     <div class="url-img mr-2 d-flex align-items-center justify-content-center">
                                         
 					    
-					    <img class="lazy" src="assets/images/logos/cnkilogo.jpg" data-src="assets/images/logos/cnkilogo.jpg"
+					    <img class="lazy" src="assets/images/logos/cnkilogo1.jpeg" data-src="assets/images/logos/cnkilogo1.jpeg"
                                                 onerror="javascript:this.src='assets\/images\/logos\/default.webp'" alt="知网 Cnki">
 					    
                                         
@@ -2837,6 +2814,39 @@
                             </div>
                         </a>
                         <a href="https://sms-activate.org/" class="togo text-center text-muted is-views" data-id="689"
+                            data-toggle="tooltip" data-placement="right" title="直达" rel="nofollow">
+                            <i class="iconfont icon-goto"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+                    <div class="url-body default">
+			
+			
+                        <a href="https://www.mathcha.io/" target="_blank" data-id="" data-url="https://www.mathcha.io/"
+                            class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-original-title="致力于为国内和校内用户提供高质量的开源软件镜像、Linux 镜像源服务,帮助用户更方便地获取开源软件。本镜像站由清华大学 TUNA 协会负责运行维护。">
+			
+                            <div class="card-body">
+                                <div class="url-content d-flex align-items-center">
+                                    <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                                        
+					    
+					    <img class="lazy" src="assets/images/logos/Tsinghuamirrors6.png" data-src="assets/images/logos/Tsinghuamirrors6.png"
+                                                onerror="javascript:this.src='assets\/images\/logos\/default.webp'" alt="清华大学开源软件镜像站">
+					    
+                                        
+                                    </div>
+                                    <div class="url-info flex-fill">
+                                        <div class="text-sm overflowClip_1">
+                                            <strong>清华大学开源软件镜像站</strong>
+                                        </div>
+                                        <p class="overflowClip_1 m-0 text-muted text-xs">致力于为国内和校内用户提供高质量的开源软件镜像、Linux 镜像源服务,帮助用户更方便地获取开源软件。本镜像站由清华大学 TUNA 协会负责运行维护。</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://www.mathcha.io/" class="togo text-center text-muted is-views" data-id="689"
                             data-toggle="tooltip" data-placement="right" title="直达" rel="nofollow">
                             <i class="iconfont icon-goto"></i>
                         </a>

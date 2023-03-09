@@ -1,0 +1,61 @@
+/* 隐藏所有内容区域 */
+.tabcontent {
+  display: none;
+}
+
+/* 标签样式 */
+.tab button {
+  background-color: #eee;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+/* 活动标签样式 */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* 内容区域样式 */
+.tabcontent {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+/*将选项卡整体居中显示*/
+.tab {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+
+/*为选项卡添加一些简单的动画效果，*/
+
+/* 将内容区域默认隐藏 */
+.tabcontent {
+  display: none;
+}
+
+/* 添加过渡效果 */
+.tabcontent {
+  transition: opacity 0.3s ease;
+}
+
+/* 当内容区域可见时，将其透明度设置为1 */
+.tabcontent.show {
+  opacity: 1;
+}
+
+
+/* 添加圆角和阴影效果 */
+.tab {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* 鼠标悬停时添加一个微小的放大效果 */
+.tablinks:hover {
+  transform: scale(1.05);
+}
+
+
