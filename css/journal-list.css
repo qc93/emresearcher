@@ -1,0 +1,152 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+  margin: 0 auto;
+/*	margin-right: 1px;*/
+/*	margin-left: 1px;*/
+  justify-content: center;
+/*  align-items: center;*/
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+/*  align-items: center;*/
+  flex-direction: row;
+  margin-left: 10px;
+/*  margin-right: 10px;*/
+  margin-bottom: 20px;
+  align-items: flex-start;
+  border: 10px solid transparent; /* 设置外边框 */
+  background-color: #eee; /* 设置背景 */
+  border-radius: 10px; /* 设置边框弧度角 */
+  transition: background-color 0.5s ease;
+}
+
+
+.block:hover {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+
+.block:last-child {
+  margin-right: 0;
+}
+  
+
+
+
+h1 {
+/*  font-size: 32px;*/
+/*  color: #333;*/
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+h2 {
+/*  font-size: 32px;*/
+/*  color: #333;*/
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+
+/*不换行*/
+.no-wrap::after {
+  white-space: nowrap;
+  content: "";
+  display: inline-block;
+  width: 0;
+}
+
+
+
+
+
+
+.block img {
+  width: 120px;
+  height: auto; /* 图片的高度自适应 */
+  object-fit: cover;
+  margin-left:  0px;
+  margin-right:  0px; /* 调整图片和文字之间的距离 */
+}
+
+.image-container {
+  width: 120px; /* 容器的宽度 */
+  height: auto; /* 图片的高度自适应 */
+  overflow: hidden; /* 超出容器的部分将被隐藏 */
+  margin-left:  0px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto; /* 图片的高度自适应 */
+  object-fit: contain; /* 按比例缩放以适应容器 */
+/*  background: #eee; /* 设置图片框背景颜色 */*/
+  padding: 1px; /* 设置图片框内边距 */
+}
+
+
+
+
+
+
+.block .text {
+  flex-grow: 1;
+  width: 225px;
+  margin-top: 0px; /* 调整文本距离容器左上角的距离 */
+  margin-left: 5px; /* 调整文本距离容器左上角的距离 */
+  margin-right: 5px; 
+}
+
+.content-container {
+  width: calc(100% - 170px); /* 设置文本框宽度 */
+  padding: 10px;
+  flex: 1;
+}
+
+
+.content-container h2 {
+  margin-top: 1px;
+  margin-bottom: 5px;
+}
+/*.content-container a {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}*/
+
+.block h3 {	
+  margin-top: 0ex;
+  margin-bottom: 0px; /* 调整标题和图片框之间的间距 */
+}
+
+.block p {
+/*	width: 230px;*/
+  margin-top: 5px; /* 调整文本距离容器左上角的距离 */
+  margin-bottom: 0px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+/*为具有.box类的元素添加了一个背景颜色和一些填充。我们还将transition属性设置为background-color 0.5s ease，这将在0.5秒的时间内平滑过渡背景颜色。最后，我们使用:hover伪类选择器来添加悬停时的背景颜色。*/
+.box {
+  background-color: #eee;
+  padding: 10px;
+  transition: background-color 0.5s ease;
+}
+.box:hover {
+  background-color: #ccc;
+}
