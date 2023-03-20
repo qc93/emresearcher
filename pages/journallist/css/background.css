@@ -1,0 +1,61 @@
+html{
+	height:100%;
+	margin:0;
+	padding:0;
+	background-image:
+	url(/bg.jpg);
+	background-size:cover;
+	background-attachment:fixed}
+	body{
+		margin:0;
+		padding:12px
+	}
+	.header-buttons button{
+		border-color:#bccadf;
+		background:none;
+		height:28px;
+		padding:0 12px
+	}
+	.home-card{
+		flex:1 1 200px;
+		max-width:300px
+	}
+	.per{
+		padding-left:2px;
+		color:rgba(0,0,0,.45)
+	}
+	.chat-message-row{
+		display:flex;
+		padding:12px
+	}
+	.chat-message-row.ai{
+		justify-content:flex-start
+	}
+	.chat-message-row.human{
+		justify-content:flex-end
+	}.chat-message{
+		white-space:pre-wrap;
+		max-width:500px;
+		border-radius:8px;
+		padding:6px 12px;
+		box-shadow:0 0 3px #d1d2da
+	}
+	.chat-message-row.human 
+	.chat-message{
+		flex-direction:row-reverse;
+		background-color:#1777ff;
+		color:#fff
+	}
+	.chat-message-row.ai 
+	.chat-message{
+		background-color:#f9f9fe
+	}
+	.highlighted{
+		background-color:#f90
+	}
+	.ant-card 
+	.ant-card-actions>li>span{cursor:default!important}@media (min-width:480px
+	){.mobile-only{display:none}
+		.desktop-only{display:block}}@media (max-width:480px){.mobile-only{display:block
+		}.desktop-only{display:none}}@media (min-width:920px){.twitter-icon{display:block}}@media (max-width:920px){.twitter-icon{display:none}
+}
